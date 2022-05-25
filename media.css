@@ -1,0 +1,298 @@
+/* Media Queries */
+
+/* tablet */
+
+/* index */
+@media screen and (max-width:768px) {
+    iframe {
+        width: 80%;
+        height: 90vh ;
+    }
+    h1 {
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    h1 a {
+        font-size: 90px;
+    }
+    nav {
+        padding: 10px
+    }
+    .menu li a {
+        font-size: 20px;
+    }
+    main {
+        overflow: hidden;
+        width: 100%;
+    }
+    .tabla {
+        display: none;
+    }
+    hr {
+        display: none;
+    }
+    .grid__container {
+        grid-template-columns: none;
+        grid-template-rows: none;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 40px;
+        margin-bottom: 50px;
+        margin-left: 5%;
+    }
+    .grid__container img {
+        width: 90%;
+        height: auto;
+    }
+    .grid__container h3 {
+        width: 90%;
+        font-size: 30px;
+    }
+    .grid__container p {
+        width: 90%;
+    }
+    .noticias__secundarias {
+        display: flex;
+        flex-direction: column wrap;  
+        gap: 70px;
+    }
+    .noticias__secundarias div {
+        width: 40vw;
+    }
+    .noticias__secundarias img, .noticias__secundarias p, .noticias__secundarias h3 {
+        width:100%;
+    }
+    .cobra__kai {
+        display: none;
+    }
+    .trailers__destacados .algunos__trailers {
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 30px;
+    }
+    footer {
+        margin-top: 0px;
+        padding: 30px;
+        background-image: none;
+        background-color: #C65D7B;
+    }
+    .container3 .informacion {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        margin-left: 0;
+    }
+    /* fin index */
+    /* películas */
+    .grid__box {
+        width: 100%;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 50px;
+        justify-content: center;
+        align-content: center;
+    }
+    .peliculas {
+        width:80%;
+        height: auto;
+    }
+    .grid__box img {
+        width: 100%;
+        height: 80vh;
+    }
+    .grid__box p {
+        width: 100%;
+        line-height: 40px;
+    } 
+    .peliculas .boton {
+        font-size: 12px;
+        left: 42%;
+        top: 5vh;
+    }
+    .noticias__secundarias {
+        margin-top: 60px;
+        flex-flow: row wrap;
+        gap: 40px;
+        justify-content: center;
+        margin-right: 4%;
+    }
+    .trailers__destacados div {
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 30px;
+    }
+    /* fin películas */
+    /* series */
+    .series div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    /* fin series */
+    /* trailers */
+    .boton__trailers {
+        font-size: 15px;
+        left: 38%;
+        top: 100%;
+        margin-bottom: 40px;
+    }
+    /* fin trailers */
+}
+/* fin tablet */
+
+/* mobile */
+@media screen and (max-width:390px) {
+    /* index */
+    .subtitulos {
+        font-size: 22px;
+        margin: 10% 5% 5%;
+    }
+    h2 {
+        font-size: 30px;
+        margin: 8%;
+    }
+    iframe {
+        width: 80%;
+        height: auto;
+    }
+    h1 {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    h1 a {
+        font-size: 50px;
+    }
+    nav {
+        padding: 10px;
+    }
+    .menu li a {
+        font-size: 10px;
+    }
+    .suscribete {
+        display: none;
+    }
+    .grid__container {
+        grid-template-columns: none;
+        grid-template-rows: none;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .grid__container img {
+        width: 90%;
+        height: auto;
+    }
+    .grid__container h3 {
+        width: 90%;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .grid__container p {
+        width: 90%;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .noticias__secundarias {
+        display: flex;
+        flex-flow: column nowrap;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .noticias__secundarias div {
+        width: 100%;
+        margin-left: 7.5%;
+    }
+    .noticias__secundarias img {
+        width: 85%;
+        height: auto;
+    }
+    .noticias__secundarias h3 {
+        width: 85%;
+        text-align: justify;
+    }
+    .noticias__secundarias p {
+        width: 85%;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .cobra__kai {
+        display: unset;
+    }
+    footer {
+        padding: 10%;
+        margin-top: 20px;
+    }
+    .container3 .informacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+    .container3 .informacion a { 
+        font-size: 8px;
+        line-height: 10px; 
+    }
+    /* películas*/
+    .grid__box {
+        margin-bottom: 10%;
+    }
+    .peliculas {
+        width:80%;
+        height: auto;
+    }
+    .grid__box img {
+        width: 100%;
+        height: auto;
+    }
+    .grid__box p {
+        width: 100%;
+        line-height: 30px;
+    } 
+    .peliculas .boton {
+        left: 35%;
+        top: 5vh;
+        margin-bottom: 20px;
+    }
+    .noticias__secundarias {
+        margin-top: 15%;
+        flex-flow: row wrap;
+        gap: 40px;
+        margin-left: 9%;
+    }
+    /* fin películas*/
+    /* series */
+    .series div{
+        gap: 30px;
+    }
+    .series div img {
+        width: 40vw;
+        height: auto;
+    }
+    /* fin series */
+    /* trailers */
+    .boton__trailers {
+        font-size: 10px;
+        left: 33%;
+        top: 100%;
+        margin-bottom: 20px;
+    }
+    /* fin trailers */
+    /* contacto */
+    #formulario textarea {
+        width: 80%;
+        height: 10vh;
+    }
+    #formulario .casillero:focus {
+        height: 3vh;
+    }
+    #formulario textarea:focus {
+        display: none;
+    }
+    /* fin contacto */
+}
