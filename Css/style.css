@@ -358,7 +358,7 @@ ul li a:hover {
 
 /* footer */
 footer {
-    background-image: url(/img/tony.png);
+    background-image: url(./img/tony.png);
     padding: 5%;
     margin-top: 5%;
 }
