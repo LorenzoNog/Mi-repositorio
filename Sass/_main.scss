@@ -1,0 +1,192 @@
+@import 'variables';
+@import 'mixins';
+
+/* main */
+main {
+    background-color: #FFF2F2 ;
+    overflow-x: hidden;
+    .link-noticia {
+        @include a;
+    }
+}
+.animate__animated {
+    font-family: $FuenteTextos;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px grey;
+    text-transform: uppercase;
+}
+.title {
+        .h3 {
+            font-family: $FuenteTitulos;
+            font-weight: bolder;
+            color:$colorFuente;
+            text-transform: uppercase;
+            @include display;   
+        }
+        .h4 {
+            @extend .h3;
+            margin-right: 45%;
+        }
+}
+.titulos {
+    @include a;
+
+}
+/* index */
+.grid__container {
+    width: 100%;
+    margin-left: 4.5%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 900px 900px;
+    .noticia {
+        img { 
+            width: 90%;
+            box-shadow:$BoxShadow;
+        }
+        h3 {
+            @include h3;
+            width: 90%;
+            &:hover {
+                color: #C65D7B;
+                transition: all 0s;
+            }
+        }
+        p {
+            font-family:$FuenteTextos;
+            font-size: 25px;
+            text-align:justify;
+            margin-top: 10px;
+            line-height: 50px;
+            width: 90%;
+        }
+    }
+    .tabla {
+        @include DisplayColumn;
+        margin-left: 5%;
+        img {
+            border-radius: $BorderRadius;
+            width: 60%;
+            height: 250px;
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.10);
+                transition: all 0.5s;
+            }
+        }
+        .texto {
+            p {
+                position: absolute;    
+                color: white;
+                font-size: 20px;
+                margin-top: -2.5%;
+                margin-left: 0.5%;
+                font-family: 'roboto', sans-serif;
+            }
+        }
+    }
+}
+.noticias__secundarias {
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly;
+    div {
+        width: 33%;
+    }
+    img {
+        width:90%;
+        height: auto;
+    }
+    h3 {
+        font-family: $FuenteTitulos;
+        width: 90%;
+        text-align: justify;
+        @extend .titulos;
+        &:hover {
+            color: #C65D7B;
+            cursor: pointer;
+            transition: all 0s;
+        }
+    }
+    p {
+        width: 90%;
+        text-align: justify;
+        font-family:$FuenteTextos;
+        font-size: 15px;
+        margin-top: 10px;
+        line-height: 30px;
+    }
+}
+/* fin index */
+/* peliculas */
+.card {
+    box-shadow:$BoxShadow;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
+    .h3 {
+        font-family: $FuenteTitulos;
+    }
+    .card-text {
+        font-family:$FuenteTextos;
+    }
+}
+.container-fluid {
+    .row {
+        .col {
+            .ratio {
+                iframe {
+                    border-radius: $BorderRadius;
+                    @include display;
+                }
+            }
+        }
+    }
+}
+/* fin peliculas */
+/* series */
+.carousel {
+        &-item {  
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                .text {
+                    p {
+                        @include display;
+                        color:grey;
+                        font-family: 'montserrat', sans-serif;
+                        font-size: 30px;
+                        font-weight: bolder;
+                    }
+                }
+            }
+}
+/*fin series*/
+/* trailers */
+.container-boton {
+    @include display;
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'montserrat', sans-serif;
+    }
+    .boton__trailers {
+        background-color:$colorFuente ;
+        border:none;
+        &:hover {
+            transform: scale(1.2);
+            transition: all 1s;
+        }
+        a {
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}
+/* fin trailers */

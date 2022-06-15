@@ -1,0 +1,21 @@
+@import 'variables';
+
+
+@mixin display {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+@mixin a {
+    text-decoration: none;
+    color: black;
+}
+@mixin DisplayColumn {
+    display: flex;
+    flex-direction: column;
+}
+@mixin h3 {
+    font-family: $FuenteTitulos;
+    font-weight: bolder;
+    font-size: 30px;
+}
