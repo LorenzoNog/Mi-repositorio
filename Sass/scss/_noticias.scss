@@ -1,0 +1,35 @@
+@import 'variables';
+
+/* noticias */
+.container-noticia {
+    .noticia1 {
+        background-color: #efefef;
+        h2 {
+            font-family: $FuenteTitulos;
+            font-size: 60px;
+            text-align: left;
+        }
+        .fecha {
+            color: grey;
+            text-align: center;
+            font-family: $FuenteTextos;
+        }
+        .autor {
+            margin-left: 1.2%;
+            color:cadetblue;
+        }
+        .desarrollo {
+            font-family:$FuenteTextos;
+            font-size: 30px;
+            line-height: 50px;
+            justify-content: center;
+            .compartir {
+                a {
+                    color: $colorFuente;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+/* fin noticias */
