@@ -8,12 +8,12 @@ Es el proyecto final que realicé para el curso de desarollo web😁👍
 - [@LorenzoNog](https://www.github.com/LorenzoNog)
 
 
-## De que se trata?
+## 👉 De que se trata?
 
 The Cinema Judgment es una página web enfocada en el mundo del cine, brindando noticias con respecto a los últimos estrenos, cartelera, novedades de actores, etc.
 
 
-## Se utiliza en el:
+## 👉 Se utiliza en el:
 
 - HTML 
 - CSS
@@ -21,6 +21,6 @@ The Cinema Judgment es una página web enfocada en el mundo del cine, brindando 
 - BOOTSTRAP
 
 
-## Depliegue
+## 👉 Depliegue
 
 Puede acceder a la página simplemente dirigiéndose al siguiente link: https://lorenzonog.github.io/Mi-repositorio/
