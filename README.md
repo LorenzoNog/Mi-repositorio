@@ -15,8 +15,7 @@ The Cinema Judgment es una página web enfocada en el mundo del cine, brindando 
 
 ## Se utiliza en el:
 
-- HTML ![image](https://user-images.githubusercontent.com/106124343/230241910-39626143-401e-4bf7-931f-6c1eaf9ecd1a.png)
-
+- HTML 
 - CSS
 - SASS
 - BOOTSTRAP
